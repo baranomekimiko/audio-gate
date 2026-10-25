@@ -1,0 +1,12 @@
+{
+  "id": "audio-gate",
+  "title": "Audio Gate",
+  "description": "Prevents audio files (configurable per-extension) from leaving the host's network. Improving load times for users who are not streaming audio via Foundry due to poor network speeds.",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "esmodules": ["scripts/main.mjs"],
+  "readme": "README.md"
+}
