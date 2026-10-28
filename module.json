@@ -3,10 +3,19 @@
   "title": "Audio Gate",
   "description": "Prevents audio files (configurable per-extension) from leaving the host's network. Improving load times for users who are not streaming audio via Foundry due to poor network speeds.",
   "version": "1.1.0",
+  "manifest": "https://github.com/baranomekimiko/audio-gate/releases/latest/download/module.json",
+  "download": "https://wide-studio.co.uk/store?product=audio-gate",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },
+  "authors": [
+    {
+      "name": "Bara",
+      "email": "baranome.kimiko@gmail.com",
+      "url": "https://www.wide-studio.co.uk/store.html?type=Digital"
+    }
+  ],
   "esmodules": ["scripts/main.mjs"],
   "readme": "README.md"
 }
